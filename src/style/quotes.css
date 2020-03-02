@@ -1,0 +1,44 @@
+.quotelist {
+  text-align: left;
+  width: 90%;
+  margin-left: 1em; 
+  margin-bottom: 2em;
+}
+
+.quote {
+  padding: 0.3em;
+  margin: 0.1em 0;
+  list-style-type: none;
+  color: white;
+  border: 3px solid white;
+}
+
+.quote > li {
+  margin-bottom: 0.1em;
+}
+
+.quote a {
+  color: #E72533;
+}
+
+.dlink {
+  float: right;
+  margin: 0.2em;
+  background-color: rgb(192, 190, 79);
+}
+
+.quotetext {
+  font-style: italic;
+  font-size: 120%;
+  display: block;
+  background-color: rgb(20, 37, 56);
+  padding: 0.2em 1em;
+}
+
+.quoteauthor {
+  font-weight: bold;
+  margin-left: 40px;
+  display: inline-block;
+  background-color: rgb(141, 31, 83);
+  padding: 0.2em;
+}
